@@ -86,7 +86,7 @@ void dark_slider_event_hook(lv_event_t * e)
 
             lv_draw_rect_dsc_t rect_dsc;
             lv_draw_rect_dsc_init(&rect_dsc);
-            rect_dsc.bg_color = lv_palette_darken(LV_PALETTE_GREY, 3);
+            rect_dsc.bg_color = lv_palette_darken(LV_PALETTE_RED, 3);
             rect_dsc.radius = LV_DPX(5);
             lv_draw_rect(draw_rect_dsc->base.layer, &rect_dsc, &bg_area);
 

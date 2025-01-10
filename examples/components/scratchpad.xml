@@ -1,11 +1,13 @@
 
 <component>
     <consts>
-        <int name="long" value="100%"/>
+        <int name="long" value="150"/>
     </consts>
 
-    <view extends="lv_obj" width="50%" height="100%" flex_flow="column"  style_bg_color="0x114488">
-        <button_default width="#long" button_label="Hello"/>
+    <view extends="lv_obj" width="content" height="100%" flex_flow="column"  style_bg_color="0x114488">
+
+        <lv_image src="wink"/>
+        <button_default width="#long" button_label="World"/>
         <button_default width="#long" button_label="Hello"/>
         <button_default width="#long" button_label="Hello"/>
         <button_error width="#long" button_label="Hello"/>

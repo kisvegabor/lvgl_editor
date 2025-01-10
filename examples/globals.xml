@@ -6,6 +6,6 @@
      <fonts>
         <tinyttf name="inter_sm" src_path="fonts/Inter-SemiBold.ttf" size="14"/>
         <tinyttf name="inter_md" src_path="fonts/Inter-SemiBold.ttf" size="18"/>
-        <tinyttf name="inter_xl" src_path="fonts/Inter-SemiBold.ttf" size="22"/>
+        <tinyttf name="inter_xl" src_path="fonts/Inter-SemiBold.ttf" size="24"/>
     </fonts>   
 </globals>
